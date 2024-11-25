@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class AccountService {
     private static final Map<String, User> loginToProfile = new HashMap<>() {{
-        put("vladi", new User("vladi", "qwerty", "vladislav.fazylov04@gmail.com"));
+        put("max", new User("max", "12345", "maksimevs2003@gmail.com"));
     }};
 
     public static void addNewUser(User userProfile) {
